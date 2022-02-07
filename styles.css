@@ -1,0 +1,53 @@
+*{
+    scroll-behavior: smooth;
+}
+.carousel-inner {
+    height: 500px;
+    width: 100%;
+}
+#category {
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.grid-container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 60px;
+    justify-content: space-evenly;
+}
+#cat-img {
+    height: 200px;
+    border-radius: 50%;
+}
+#deals {
+    padding: 30px;
+}
+.deal-container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 60px;
+    justify-content: space-evenly;
+}
+#deal-img {
+    height: 250px;
+    width: 200px;
+}
+#men-img, #women-img {
+    height: 300px;
+}
+
+#footer_section {
+    background-color: aliceblue;
+}
+.backtop {
+    margin-top: -42px;
+    background-color: white;
+    float: right;
+}
+#checkout {
+    background-color: lightgoldenrodyellow;
+}
